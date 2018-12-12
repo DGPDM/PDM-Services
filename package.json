@@ -1,0 +1,24 @@
+{
+  "name": "pdm_services",
+  "version": "1.0.0",
+  "description": "PDM Services",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DGPDM/PDM-Services.git"
+  },
+  "author": "DGallimore",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js"
+  }
+
+
+}
