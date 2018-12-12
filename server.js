@@ -11,8 +11,8 @@ app.get('/debug', (req, res) => {
 
 
 
-app.get('/time', (req, res) => {
-  res.send(Date().getTime());
+app.get('/names', (req, res) => {
+  res.json(["Tony","Lisa","Michael","Ginger","Food"]);
 });
 
 
